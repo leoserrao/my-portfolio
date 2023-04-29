@@ -90,11 +90,11 @@
         </div>
     </section> <!-- Fim seção sobre -->
 
-    <section class="container-servicos">
+    <section class="container-servicos"><!-- Início do container de serviços -->
         <h1>Serviços</h1>
         <p>Meus serviços pra você, faça sua oferta e me mande uma mensagem</p>
         <p>Nossos serviços pra você</p>
-        <div class="container-card">
+        <div class="container-card"><!-- Início dos Cards -->
             <div class="card">
                 <img src="assets/phone.png" alt="image phone">
                 <h3>Desenvolvimento Mobile</h3>
@@ -122,16 +122,67 @@
                     <br> impressos
                 </h4>
             </div><!-- Fim card3 gráfico -->
-        </div>
+            <div class="card">
+                <img src="assets/computador.png" alt="image computador">
+                <h3>Desenvolvimento Desktop</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos
+                </h4>
+            </div><!-- Fim card4 computador -->
+            <div class="card">
+                <img src="assets/paisagem.png" alt="image paisagem">
+                <h3>Criação de UX / UI Design</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos
+                </h4>
+            </div><!-- Fim card5 paisagem -->
+            <div class="card">
+                <img src="assets/camera.png" alt="image camera">
+                <h3>Criação e edição de mídias digitais</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos
+                </h4>
+            </div><!-- Fim card6 mídias digitais -->
+        </div><!-- Fim dos Cards -->
 
-    </section>
+    </section><!-- Fim do container de serviços -->
+
+    <section class="container-projetos"><!-- Início do container de projetos -->
+
+        <h1>Meus projetos</h1>
+        <p>Conheça alguns dos projetos, caso você tenha interesse em fazer um orçamento, me mande uma mensagem no formulário no fim desta página.</p>
+        <p>Nossos serviços para você</p>
+        <div class="meus-projetos">
+            <img src="assets/projeto-1.png" alt="image projeto 1">
+            <img src="assets/projeto-2.png" alt="image projeto 2">
+        </div>
+        <div class="meus-projetos2">
+            <img src="assets/projeto-3.png" alt="image projeto 3">
+        </div>
+    </section><!-- Fim do container de projeto -->
+
+    <section class="container-rodape"><!-- Início do container de rodapé da página -->
+        <h1>Nos envie uma mensagem e peça um orçamento!</h1>
+        <form><!-- Início do formulário de contato -->
+            <label>E-mail:</label><br>
+            <input type="email" name="email" id="email" placeholder="Informe o seu e-mail mais usado">
+            <br><label>Mensagem:</label><br>
+            <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" minlength="20" maxlength="100" rows="10"></textarea>
+            <input type="submit" name="submit" value="Enviar">
+
+        </form><!-- Fim do formulário de contato -->
+    </section><!-- Fim do container de rodapé da página -->
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
