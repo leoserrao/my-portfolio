@@ -1,173 +1,172 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>My Portfólio - Dev Léo Serrão Barbosa</title>
+
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="selection-1-bg"> <!-- Início da seção selection-1-bg -->
-        <aside><!-- Início da Barra de Menu lateral -->
-            <div class="icon-menu" onclick="abrirmenu()">
-                <img src="assets/hamburger-menu.png" alt="Imagem ícone menu hamburger tamanha 64 x 64 pixels e cores azul ciano e azul escuro.">
-            </div>
+    <div class="Section-1-bg" >
+     <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+            <img src="assets/hamburger-menu.png">
+        </div><!--icon-menu-->
 
-            <div id="barra-menu">
-                <ul>
-                        <li>
-                            <a href="https://github.com/leoserrao" target="_blank">Início</a>
-                        </li>
-                        <li>
-                            <a href="#">Serviços</a>
-                        </li>
-                        <li>
-                            <a href="#">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="#">Contato</a>
-                        </li>
-                        <li>
-                            <a href="#">Sobre mim</a>
-                        </li>
-                    </ul>
+        <div id="barra-menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre mim</a></li>
+            </ul>
 
-                    <div class="icon-social-media">
-                        <span><ion-icon name="logo-facebook"></ion-icon></span>
-                        <span><ion-icon name="logo-instagram"></ion-icon></span>
-                        <span><ion-icon name="logo-youtube"></ion-icon></span>
-                    </div>
-            </div>
-        </aside><!-- Fim da Barra de Menu lateral -->
+            <div class="C-icon">
+                <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
 
-        <div id="main-content"> <!-- Seção princiapl -->
-            
-            <h1>Eu sou Léo Serrão</h1>
-            <h2>Sou Desenvolvedor Web Full Stack</h2>
-            <h5>Trabalho como Freelancer</h5>
-            <button class="btn">Saber mais...</button>
+            </div><!--icon-->
+        </div><!--barra-menu-->
+     </aside>
 
-            <div id="meus-numeros"> <!-- Seção meus números -->
-                <div class="title-numeros">
+    
+        <div class="main-title">
+            <h1>Eu sou Léo Serrão </h1>
+            <h2>Sou desenvolvedor Web</h2>
+            <h5>Trabalho como freelancer</h5>
+            <button class="btn">Saber mais</button>
+
+            <div class="Numeros">
+                <div class="title">
                     <h3>1k+</h3>
-                    <p>Meus clientes</p>
-                </div>
-            
-                <div class="title-numeros">
+                <p>Meus clientes</p>
+                </div><!--title-->
+
+                <div class="title">
                     <h3>18k+</h3>
                     <p>Projetos completos</p>
-                </div>
+                </div><!--title-->
 
-                <div class="title-numeros">
+                <div class="title">
                     <h3>30k+</h3>
-                    <p>Meus ganhos</p>
-                </div>
-            </div> <!-- Fim da Seção meus números -->
-        </div> <!-- Fim da Seção principal -->
-    </div> <!-- Fim da Seção selection-1-bg -->
-    <section class="sobre" data-aos="fade-up">
-        <div class="image">
-            <img src="assets/about.jpg" alt="Imagem de um homem com barba e bigode vestido de camiseta branca e casaco preto.">
-        </div>
-        <div class="sobre-mim">
-            <h2>Sobre mim</h2>
-            <h4>Desenvolvedor & <span>Design</span></h4>
-            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria
-                <br>tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-                <br>quando um impressor desconhecido pegou uma bandeja de tipos e os
-                <br>embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
-                <br>sobreviveu não só a cinco séculos, como também ao salto para a
-                <br>editoração eletrônica, permanecendo essencialmente inalterado. Se
-                <br>popularizou na década de 60, quando a Letraset lançou decalques
-                <br>contendo passagens de Lorem Ipsum, e mais recentemente quando
-                <br>passou a ser integrado a softwares de editoração eletrônica como Aldus
-                <br>PageMaker.
-            </p>
-            <button class="btn">Saber mais...</button>
-        </div>
-    </section> <!-- Fim seção sobre -->
+                    <p>Meus Ganhos</p>
+                </div><!--title-->
 
-    <section class="container-servicos" data-aos="fade-up"><!-- Início do container de serviços -->
+            </div><!--Numeros-->
+        </div><!--main-title-->
+    </div><!--Section-1-bg-->
+
+
+    <section class="C-sobre" data-aos="fade-up">
+        <div class="image">
+            <img src="assets/about.jpg">
+        </div><!--image-->
+
+        <div class="Sobre-mim">
+            <h1>Sobre mim</h1>
+            <h4>Desenvolvedor & <span>desing</span></h4>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria 
+                <br> tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
+                <br> quando um impressor desconhecido pegou uma bandeja de tipos e os 
+                <br> embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum 
+                <br> sobreviveu não só a cinco séculos, como também ao salto para a 
+                <br> editoração eletrônica, permanecendo essencialmente inalterado. Se 
+                <br> popularizou na década de 60, quando a Letraset lançou decalques 
+                <br> contendo passagens de Lorem Ipsum, e mais recentemente quando 
+                <br> passou a ser integrado a softwares de editoração eletrônica como Aldus 
+                <br> PageMaker.</p>
+                <button class="btn">Saber mais</button>
+
+        </div><!--Sobre-mim-->
+    </section><!---C-sobre-->
+
+
+    <section class="Container" data-aos="fade-up">
         <h1>Serviços</h1>
-        <p>Meus serviços pra você, faça sua oferta e me mande uma mensagem</p>
+        <p>Meu serviços pra você faça sua oferta e me mande uma mensagem </p>
         <p>Nossos serviços pra você</p>
-        <div class="container-card"><!-- Início dos Cards -->
-            <div class="card">
-                <img src="assets/phone.png" alt="image phone">
+        <div class="C-card" data-aos="fade-up">
+            <div class="Card">
+                <img src="assets/phone.png" alt="phone">
                 <h3>Desenvolvimento Mobile</h3>
                 <h4>Lorem Ipsum é simplesmente 
                     <br> uma simulação de texto da 
                     <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card1 Mobile -->
-            <div class="card">
-                <img src="assets/desktop.png" alt="image desktop">
-                <h3>Desenvolvimento Desktop</h3>
-                <h4>Lorem Ipsum é simplesmente 
-                    <br> uma simulação de texto da 
-                    <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card2 Desktop -->
-            <div class="card">
-                <img src="assets/grafico.png" alt="image graphic">
-                <h3>Criação e crescimento de sua Marca</h3>
-                <h4>Lorem Ipsum é simplesmente 
-                    <br> uma simulação de texto da 
-                    <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card3 gráfico -->
-            <div class="card">
-                <img src="assets/computador.png" alt="image computador">
-                <h3>Desenvolvimento Desktop</h3>
-                <h4>Lorem Ipsum é simplesmente 
-                    <br> uma simulação de texto da 
-                    <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card4 computador -->
-            <div class="card">
-                <img src="assets/paisagem.png" alt="image paisagem">
-                <h3>Criação de UX / UI Design</h3>
-                <h4>Lorem Ipsum é simplesmente 
-                    <br> uma simulação de texto da 
-                    <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card5 paisagem -->
-            <div class="card">
-                <img src="assets/camera.png" alt="image camera">
-                <h3>Criação e edição de mídias digitais</h3>
-                <h4>Lorem Ipsum é simplesmente 
-                    <br> uma simulação de texto da 
-                    <br> indústria tipográfica e de 
-                    <br> impressos
-                </h4>
-            </div><!-- Fim card6 mídias digitais -->
-        </div><!-- Fim dos Cards -->
+                    <br> impressos</h4>
+            </div><!--Card-->
 
-    </section><!-- Fim do container de serviços -->
+            <div class="Card">
+                <img src="assets/desktop.png" alt="desktop">
+                <h3>Desenvolvimento Web</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos</h4>
+            </div><!--Card-->
 
-    <section class="container-projetos" data-aos="fade-up"><!-- Início do container de projetos -->
+            <div class="Card">
+                <img src="assets/grafico.png" alt="grafico">
+                <h3>Crescimento de Marca</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos</h4>
+            </div><!--Card-->
+        </div><!--C-card-->
 
+        <div class="C-card-2" data-aos="fade-up">
+
+            <div class="Card">
+                <img src="assets/computador.png" alt="computador">
+                <h3>Desenvolvimento Web</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos</h4>
+            </div><!--Card-->
+
+
+            <div class="Card">
+                <img src="assets/camera.png" alt="camera">
+                <h3>Crescimento de Marca</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos</h4>
+            </div><!--Card-->
+
+
+            <div class="Card">
+                <img src="assets/paisagem.png" alt="paisagem">
+                <h3>Desenvolvimento Mobile</h3>
+                <h4>Lorem Ipsum é simplesmente 
+                    <br> uma simulação de texto da 
+                    <br> indústria tipográfica e de 
+                    <br> impressos</h4>
+            </div><!--Card-->
+
+        </div><!--C-card-2-->
+    </section><!--conatiner-->
+
+
+    <section class="C-projetos" data-aos="fade-up">
         <h1>Meus projetos</h1>
-        <p>Conheça alguns dos projetos, caso você tenha interesse em fazer um orçamento, me mande uma mensagem no formulário no fim desta página.</p>
-        <p>Nossos serviços para você</p>
-        <div class="meus-projetos">
-            <img src="assets/projeto-1.png" alt="image projeto 1">
-            <img src="assets/projeto-2.png" alt="image projeto 2">
-        </div>
-        <div class="meus-projetos2">
-            <img src="assets/projeto-3.png" alt="image projeto 3">
-        </div>
-    </section><!-- Fim do container de projeto -->
+        <p>Meu serviços pra você faça sua oferta e me mande uma mensagem </p>
+        <p>Nossos serviços pra você</p>
+        <div class="img-projetos" data-aos="fade-up">
+            <img src="assets/projeto-1.png" alt="projeto">
+            <img src="assets/projeto-2.png" alt="projeto">
+        </div><!--img-projetos-->
+        <div class="img-2"><img src="assets/projeto-3.png" alt="projeto"></div>
+    </section><!--C-projetos-->
 
-    <section class="container-rodape"><!-- Início do container de rodapé da página -->
+    <section class="C-rodapé" >
         <h1>Nos envie uma mensagem e peça um orçamento!</h1>
         <form><!-- Início do formulário de contato -->
             <label>E-mail:</label><br>
@@ -177,12 +176,16 @@
             <input type="submit" name="submit" value="Enviar">
 
         </form><!-- Fim do formulário de contato -->
-    </section><!-- Fim do container de rodapé da página -->
+
+    </section><!--C-rodapé-->
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
-</body>
+    <script>
+      AOS.init();
+    </script>
 
+
+</body>
 </html>
